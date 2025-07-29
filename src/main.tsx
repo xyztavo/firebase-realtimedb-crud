@@ -7,7 +7,7 @@ import Layout from './Layout.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Layout>
-    <App name={'Death Note'} />
+     <App name={'Wishes'} />
     </Layout>
   </StrictMode>,
 )

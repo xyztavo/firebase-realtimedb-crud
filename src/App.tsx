@@ -69,7 +69,7 @@ const App = ({ name }: AppProps) => {
   };
 
   return (
-    <div>
+    <div className='bg-zinc-950 p-2 rounded-md border border-zinc-900'>
       <h1>{name ? name : "fodasse sem nome"}</h1>
       <div className='flex flex-col items-center justify-center gap-1'>
         {/* Add New Item */}
